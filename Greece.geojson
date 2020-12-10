@@ -12,7 +12,7 @@
         "资料": "https://docs.zoho.com.cn/file/u90kz8f56f27a3dc24d46b2ef8c6bf189997f",
         "Booking.com": "",
         "TripAdvisor": "https://www.tripadvisor.com/Hotel_Review-g676533-d500421-Reviews-Corfu_Sea_Gardens-Kavos_Corfu_Ionian_Islands.html",
-        "marker-color": "#FF7F00",
+        "marker-color": "#00BFFF",
         "marker-symbol": "village"
       },
       "geometry": {
@@ -34,7 +34,7 @@
         "资料": "https://docs.zoho.com.cn/file/u90kz9cef786af1914f039bf1d30210ce08ef",
         "Booking.com": "https://www.booking.com/hotel/gr/infinity-collection-prive.zh-cn.html?label=gen173nr-1DCAEoggI46AdIM1gEaHWIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgS4AoDFx_4FwAIB0gIkYTQwMDg2MmItYjIyZS00YjQ3LTk0ZmEtZmFhMWRiMGU0MjY22AIE4AIB&sid=5833235cfd518ce9e45206bc60960a9f&dest_id=-818117&dest_type=city&from_beach_non_key_ufi_sr=1&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&sr_order=popularity&srepoch=1607590592&srpvid=9d723edf1b240086&ucfs=1&from=searchresults;highlight_room=#hotelTmpl",
         "TripAdvisor": "",
-        "marker-color": "#FF7F00",
+        "marker-color": "#00BFFF",
         "marker-symbol": "village"
       },
       "geometry": {
