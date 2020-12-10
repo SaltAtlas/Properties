@@ -24,22 +24,24 @@
       }
     },
     {
-      "type": "Feature",
+     "type": "Feature",
       "properties": {
-        "名称": "May Café",
-        "营业状态": "停业",
-        "下载速度": "41 Mbps",
-        "Speedtest 链接": "http://www.speedtest.net/my-result/4850194225",
-        "参考价格": "25-40 元",
-        "评论 (@mckelvin)": "有电源，网速快，环境不错，人不多。",
-        "marker-color": "#BEBEBE",
+        "名称": "Infinity Collection Privé",
+        "价格": "€ 15,500,000",
+        "物业": "2" ,
+        "客房": "2",
+        "床位": "5",
+        "资料": "https://github.com/UnderAbove/Properties/blob/main/resources/PDF/Infinity%20Collection%20Privé.pdf",
+        "Booking.com": "https://www.booking.com/hotel/gr/infinity-collection-prive.zh-cn.html?label=gen173nr-1DCAEoggI46AdIM1gEaHWIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgS4AoDFx_4FwAIB0gIkYTQwMDg2MmItYjIyZS00YjQ3LTk0ZmEtZmFhMWRiMGU0MjY22AIE4AIB&sid=5833235cfd518ce9e45206bc60960a9f&dest_id=-818117&dest_type=city&from_beach_non_key_ufi_sr=1&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&sr_order=popularity&srepoch=1607590592&srpvid=9d723edf1b240086&ucfs=1&from=searchresults;highlight_room=#hotelTmpl",
+        "TripAdvisor": "",
+        "marker-color": "#EE0000",
         "marker-symbol": "village"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.328977,
-          40.03278
+          25.424547673044366,
+          36.43211578502455
         ]
       }
     }
