@@ -4,19 +4,22 @@
     {
       "type": "Feature",
       "properties": {
-        "名称": "奇遇花园",
-        "下载速度": "22 Mbps",
-        "Speedtest 链接": "http://www.speedtest.net/my-result/4629928302",
-        "参考价格": "30-40 元",
-        "评论 (@xhacker)": "有电源，网速快，环境不错，咖啡也不错。",
+        "名称": "Corfu Sea Gardens Hotel",
+        "售价": "€ 15,000,000",
+        "物业数量": "3 酒店 (& Med Blue South & Mediterranean Blue Complex)",
+        "客房数量": "142",
+        "床位数量": "520",
+        "资料下载": "有电源，网速快，环境不错，咖啡也不错。",
+        "Booking 链接": "",
+        "TripAdvisor 链接": "https://www.tripadvisor.com/Hotel_Review-g676533-d500421-Reviews-Corfu_Sea_Gardens-Kavos_Corfu_Ionian_Islands.html",
         "marker-color": "#50C240",
-        "marker-symbol": "cafe"
+        "marker-symbol": "village"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.342,
-          39.941
+          20.119308105756982,
+          39.37628816591595
         ]
       }
     },
@@ -30,7 +33,7 @@
         "参考价格": "25-40 元",
         "评论 (@mckelvin)": "有电源，网速快，环境不错，人不多。",
         "marker-color": "#BEBEBE",
-        "marker-symbol": "cafe"
+        "marker-symbol": "village"
       },
       "geometry": {
         "type": "Point",
