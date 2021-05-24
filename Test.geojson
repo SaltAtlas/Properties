@@ -1,58 +1,50 @@
-L.mapbox.accessToken = 'pk.eyJ1IjoidW5kZXJhYm92ZSIsImEiOiJja2NhYTVrM3YwM2tnMnF0b2R3MWt4czEzIn0.EnPzm87doablgD1ySLaR7g';
-
-// store GeoJSON objects in these variables
-var hospitals = {
+{
   "type": "FeatureCollection",
   "features": [
-    { "type": "Feature", "properties": { "Name": "VA Medical Center -- Leestown Division", "Address": "2250 Leestown Rd" }, "geometry": { "type": "Point", "coordinates": [ -84.539487, 38.072916 ] } },
-    { "type": "Feature", "properties": { "Name": "St. Joseph East", "Address": "150 N Eagle Creek Dr" }, "geometry": { "type": "Point", "coordinates": [ -84.440434, 37.998757 ] } },
-    { "type": "Feature", "properties": { "Name": "Central Baptist Hospital", "Address": "1740 Nicholasville Rd" }, "geometry": { "type": "Point", "coordinates": [ -84.512283, 38.018918 ] } },
-    { "type": "Feature", "properties": { "Name": "VA Medical Center -- Cooper Dr Division", "Address": "1101 Veterans Dr" }, "geometry": { "type": "Point", "coordinates": [ -84.506483, 38.02972 ] } },
-    { "type": "Feature", "properties": { "Name": "Shriners Hospital for Children", "Address": "1900 Richmond Rd" }, "geometry": { "type": "Point", "coordinates": [ -84.472941, 38.022564 ] } },
-    { "type": "Feature", "properties": { "Name": "Eastern State Hospital", "Address": "627 W Fourth St" }, "geometry": { "type": "Point", "coordinates": [ -84.498816, 38.060791 ] } },
-    { "type": "Feature", "properties": { "Name": "Cardinal Hill Rehabilitation Hospital", "Address": "2050 Versailles Rd" }, "geometry": { "type": "Point", "coordinates": [ -84.54212, 38.046568 ] } },
-    { "type": "Feature", "properties": { "Name": "St. Joseph Hospital", "ADDRESS": "1 St Joseph Dr" }, "geometry": { "type": "Point", "coordinates": [ -84.523636, 38.032475 ] } },
-    { "type": "Feature", "properties": { "Name": "UK Healthcare Good Samaritan Hospital", "Address": "310 S Limestone" }, "geometry": { "type": "Point", "coordinates": [ -84.501222, 38.042123 ] } },
-    { "type": "Feature", "properties": { "Name": "UK Medical Center", "Address": "800 Rose St" }, "geometry": { "type": "Point", "coordinates": [ -84.508205, 38.031254 ] }
+    {
+      "type": "Feature",
+      "properties": {
+        "名称": "Corfu Sea Gardens & Med Blue South & Mediterranean Blue Complex",
+        "价格": "€ 15,000,000",
+        "物业": "3" ,
+        "客房": "142",
+        "床位": "520",
+        "资料": "https://docs.zoho.com.cn/file/u90kz8f56f27a3dc24d46b2ef8c6bf189997f",
+        "Booking.com": "",
+        "TripAdvisor": "https://www.tripadvisor.com/Hotel_Review-g676533-d500421-Reviews-Corfu_Sea_Gardens-Kavos_Corfu_Ionian_Islands.html",
+        "备注": "Corfu Sea Gardens 和 Mediterranean Blue Complex 仍在运营；Med Blue South 已抵押给银行",
+        "marker-color": "#9F79EE",
+        "marker-symbol": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.119308105756982,
+          39.37628816591595
+        ]
+      }
+    },
+    {
+     "type": "Feature",
+      "properties": {
+        "名称": "Infinity Collection Privé",
+        "价格": "€ 1,550,000",
+        "物业": "2" ,
+        "客房": "2",
+        "床位": "5",
+        "资料": "https://docs.zoho.com.cn/file/u90kz9cef786af1914f039bf1d30210ce08ef",
+        "Booking.com": "https://www.booking.com/hotel/gr/infinity-collection-prive.zh-cn.html?label=gen173nr-1DCAEoggI46AdIM1gEaHWIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgS4AoDFx_4FwAIB0gIkYTQwMDg2MmItYjIyZS00YjQ3LTk0ZmEtZmFhMWRiMGU0MjY22AIE4AIB&sid=5833235cfd518ce9e45206bc60960a9f&dest_id=-818117&dest_type=city&from_beach_non_key_ufi_sr=1&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&sr_order=popularity&srepoch=1607590592&srpvid=9d723edf1b240086&ucfs=1&from=searchresults;highlight_room=#hotelTmpl",
+        "TripAdvisor": "",
+        "marker-color": "#9F79EE",
+        "marker-symbol": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.424547673044366,
+          36.43211578502455
+        ]
+      }
     }
   ]
 }
-;
-var libraries = {
-  "type": "FeatureCollection",
-  "features": [
-    { "type": "Feature", "properties": { "Name": "Village Branch", "Address": "2185 Versailles Rd" }, "geometry": { "type": "Point", "coordinates": [ -84.548369, 38.047876 ] } },
-    { "type": "Feature", "properties": { "Name": "Northside Branch", "ADDRESS": "1733 Russell Cave Rd" }, "geometry": { "type": "Point", "coordinates": [ -84.47135, 38.079734 ] } },
-    { "type": "Feature", "properties": { "Name": "Central Library", "ADDRESS": "140 E Main St" }, "geometry": { "type": "Point", "coordinates": [ -84.496894, 38.045459 ] } },
-    { "type": "Feature", "properties": { "Name": "Beaumont Branch", "Address": "3080 Fieldstone Way" }, "geometry": { "type": "Point", "coordinates": [ -84.557948, 38.012502 ] } },
-    { "type": "Feature", "properties": { "Name": "Tates Creek Branch", "Address": "3628 Walden Dr" }, "geometry": { "type": "Point", "coordinates": [ -84.498679, 37.979598 ] } },
-    { "type": "Feature", "properties": { "Name": "Eagle Creek Branch", "Address": "101 N Eagle Creek Dr" }, "geometry": { "type": "Point", "coordinates": [ -84.442219, 37.999437 ] } }
-  ]
-};
-
-// Add marker color, symbol, and size to hospital GeoJSON
-for (var i = 0; i < hospitals.features.length; i++) {
-  hospitals.features[i].properties['marker-color'] = '#DC143C';
-  hospitals.features[i].properties['marker-symbol'] = 'hospital';
-  hospitals.features[i].properties['marker-size'] = 'small';
-}
-
-// Add marker color, symbol, and size to library GeoJSON
-for (var j = 0; j < libraries.features.length; j++) {
-  libraries.features[j].properties['marker-color'] = '#4169E1';
-  libraries.features[j].properties['marker-symbol'] = 'library';
-  libraries.features[j].properties['marker-size'] = 'small';
-}
-
-var map = L.mapbox.map('map')
-  .setView([38.05, -84.5], 12)
-  .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/light-v10'));
-map.scrollWheelZoom.disable();
-
-var hospitalLayer = L.mapbox.featureLayer(hospitals)
-  .addTo(map);
-var libraryLayer = L.mapbox.featureLayer(libraries)
-  .addTo(map);
-
-// When map loads, zoom to libraryLayer features
-map.fitBounds(libraryLayer.getBounds());
