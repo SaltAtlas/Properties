@@ -1,29 +1,4 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "名称": "Corfu Sea Gardens & Med Blue South & Mediterranean Blue Complex",
-        "价格": "€ 15,000,000",
-        "物业": "3" ,
-        "客房": "142",
-        "床位": "520",
-        "资料": "https://docs.zoho.com.cn/file/u90kz8f56f27a3dc24d46b2ef8c6bf189997f",
-        "Booking.com": "",
-        "TripAdvisor": "https://www.tripadvisor.com/Hotel_Review-g676533-d500421-Reviews-Corfu_Sea_Gardens-Kavos_Corfu_Ionian_Islands.html",
-        "备注": "Corfu Sea Gardens 和 Mediterranean Blue Complex 仍在运营；Med Blue South 已抵押给银行",
-        "marker-color": "#9F79EE",
-        "marker-symbol": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.119308105756982,
-          39.37628816591595
-        ]
-      }
-      "video": {
+"video": {
     "type": "video",
     "urls": [
         "https://static-assets.mapbox.com/mapbox-gl-js/drone.mp4",
@@ -35,29 +10,4 @@
         [-122.51309394836426, 37.563391708549425],
         [-122.51423120498657, 37.56161849366671]
     ]
-}
-    },
-    {
-     "type": "Feature",
-      "properties": {
-        "名称": "Infinity Collection Privé",
-        "价格": "€ 1,550,000",
-        "物业": "2" ,
-        "客房": "2",
-        "床位": "5",
-        "资料": "https://docs.zoho.com.cn/file/u90kz9cef786af1914f039bf1d30210ce08ef",
-        "Booking.com": "https://www.booking.com/hotel/gr/infinity-collection-prive.zh-cn.html?label=gen173nr-1DCAEoggI46AdIM1gEaHWIAQGYAQm4AQfIAQzYAQPoAQGIAgGoAgS4AoDFx_4FwAIB0gIkYTQwMDg2MmItYjIyZS00YjQ3LTk0ZmEtZmFhMWRiMGU0MjY22AIE4AIB&sid=5833235cfd518ce9e45206bc60960a9f&dest_id=-818117&dest_type=city&from_beach_non_key_ufi_sr=1&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&sr_order=popularity&srepoch=1607590592&srpvid=9d723edf1b240086&ucfs=1&from=searchresults;highlight_room=#hotelTmpl",
-        "TripAdvisor": "",
-        "marker-color": "#9F79EE",
-        "marker-symbol": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.424547673044366,
-          36.43211578502455
-        ]
-      }
-    }
-  ]
 }
