@@ -1,6 +1,6 @@
-<style>
-#map { position: absolute; top: 0; bottom: 0; width: 100%; }
-</style>
+<script>
+map.addControl(new mapboxgl.NavigationControl()); //增加地图控制按钮
+</script>
 
 {
   "type": "FeatureCollection",
